@@ -10,23 +10,23 @@ namespace Savarankiskas2
     {
         static void Main(string[] args)
         {
-            {
-                int kartojamasVardas = 5;
-                string vardas = "Vilija";
 
-                IsvedaManoVarda(vardas, kartojamasVardas);
-                Console.ReadLine();
+            int kiekKartotiVarda = 5;
+            //string vardas = "Vilija";
+
+            IsvedaManoVarda("Vilija", kiekKartotiVarda);
+            Console.ReadLine();
+        }
+
+        private static void IsvedaManoVarda(string vardas, int kartojamasVardas)
+        {
+            for (int i = 0; i < kartojamasVardas; i++)
+            {
+                Console.WriteLine(vardas);
             }
 
-            private static void IsvedaManoVarda(string vardas, int kartojamasVardas)
-            {
-                for (int i = 0; i < kartojamasVardas; i++)
-                {
-                     Console.WriteLine(vardas);
-                }
-               
 
-            }
         }
     }
 }
+
