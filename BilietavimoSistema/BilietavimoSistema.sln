@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilietavimoSistema", "BilietavimoSistema\BilietavimoSistema.csproj", "{BE7ABE7D-3707-488A-B4F5-6DA2CFB9A710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7ABE7D-3707-488A-B4F5-6DA2CFB9A710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7ABE7D-3707-488A-B4F5-6DA2CFB9A710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7ABE7D-3707-488A-B4F5-6DA2CFB9A710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7ABE7D-3707-488A-B4F5-6DA2CFB9A710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B3EE15-1E3C-4CF6-85AF-6857F8847A9A}
+	EndGlobalSection
+EndGlobal
