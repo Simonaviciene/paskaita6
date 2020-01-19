@@ -16,8 +16,10 @@ namespace BilietavimoSistema
             int operacijosPasirinkimas = 0;
             int bilietoTipoPasirinkimas = 0;
             int bilietuKiekis = 0;
+
             Console.WriteLine("Meniu: Pirkti bilietus [1], Kurti Bilietus [2]");
             operacijosPasirinkimas=Convert.ToInt32(Console.ReadLine());
+
             if (operacijosPasirinkimas == 1)
             {
                 Console.WriteLine("Pasirinkite bilieto tipa: [1] Po 10 Eu, [2] Po 20 Eu, [3] Po 30Eu");
