@@ -12,16 +12,17 @@ namespace Savarankikas2._3
         {
             double skaicius = 10;
             int laipsnis = 3;
+            
 
-            Console.WriteLine("Skaiciaus {0} pakeltas {1} laipsniu = {3}",skaicius, laipsnis, PakeltiLaipsniu);
+            Console.WriteLine("Skaiciaus {0} pakeltas {1} laipsniu = {3}",skaicius, laipsnis, pakeltasLaipsniu);
 
             Console.ReadLine();
         }
 
-        static double PakeltiLaipsniu(double skaicius, int laipsnis)
+        static double PakeltasLaipsniu(double skaicius, int laipsnis)
         {
-            double PakeltasLaipsniu = Math.Pow(skaicius, laipsnis);
-            return PakeltasLaipsniu;
+            double pakeltasLaipsniu = Math.Pow(skaicius, laipsnis);
+            return pakeltasLaipsniu;
         }
     }
     
